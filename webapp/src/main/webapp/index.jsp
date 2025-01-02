@@ -1,3 +1,2 @@
-Devops TechLab Jenkins Training !! Auto Deployment.
-Check Continuous Delivery
-CHecking Cont... Deployment
+All pratical was done 
+And pratice was also done
