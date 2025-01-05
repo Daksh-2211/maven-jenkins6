@@ -1,2 +1,2 @@
-All pratical was done 
-And pratice was also done
+lec-4 was completed 
+and pratice was also done
