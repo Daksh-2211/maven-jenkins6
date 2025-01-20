@@ -19,10 +19,6 @@ git branch: 'main', url: 'https://github.com/Daksh-2211/maven-jenkins6.git'     
                 archiveArtifacts artifacts: '**/*.war', followSymlinks: false
             }
         }
-                stage('Other build') {
-            steps {
-        build wait: false, job: 'deploy-pipepline'
-            }
-        }
+
     }
 }
