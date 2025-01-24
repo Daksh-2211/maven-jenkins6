@@ -16,4 +16,4 @@ COPY --from=builder /app/webapp/target/*.war .
 
 EXPOSE 8080
 
-CMD  ["start.sh","run"]
+CMD  ["catalina.sh","run"]
