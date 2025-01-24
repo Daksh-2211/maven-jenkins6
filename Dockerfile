@@ -10,9 +10,9 @@ RUN mvn clean package
 
 FROM tomcat:11.0.2-jdk21-temurin-noble
 
-WORKDIR /usr/local/tomcat/webapps
+WORKDIR /usr/local/tomcat/webapp
 
-COPY --from=builder /app/webapps/target/*.war .
+COPY --from=builder /app/webapp/target/*.war .
 
 EXPOSE 8080
 
