@@ -15,6 +15,10 @@ git branch: 'main', url: 'https://github.com/Daksh-2211/maven-jenkins6.git'     
                 
             }
         }
+        stage('deploy_job') {
+            steps {
+build 'deployment_dockerfile'        }
 
     }
+}
 }
